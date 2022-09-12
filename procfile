@@ -1,1 +1,0 @@
-release: ralis db:migrate
