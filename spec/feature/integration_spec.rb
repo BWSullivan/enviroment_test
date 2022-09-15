@@ -1,7 +1,7 @@
 # location: spec/feature/integration_spec.rb
 require 'rails_helper'
 
-RSpec.describe 'Creating a book', type: :feature do
+RSpec.describe 'Creating a book - normal', type: :feature do
   scenario 'valid inputs' do
     visit new_book_path
     fill_in 'Title', with: 'harry potter'
